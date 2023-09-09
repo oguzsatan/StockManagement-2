@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">
+        Welcome to Stock Management 
+        <br />
+        by Oğuz Kaan Satan
+    </h1>
+
+    <p id="description">Pick a page to get started.</p>
+
+    <ul id="pages-list">
+        <li><a href="/Stocks">Stocks</a></li>
+        <li><a href="/StockTransfers">StockTransfers</a></li>
+        <li><a href="/Products">Products</a></li>
+        <li><a href="/Companies">Company</a></li>
+        <li><a href="/Warehouses">Warehouses</a></li>
+    </ul>
+    
+</div>
+
+
+<style>
+    #pages-list, #description{
+        text-align: left;
+    }
+</style>
